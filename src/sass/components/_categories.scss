@@ -1,0 +1,26 @@
+.categories-container{
+  & .card-header{
+    padding: 1.5rem;
+    @extend .heading-1;
+  }
+
+  button .vi-container{
+    margin-top: 0.3em;
+  }
+
+  .cat-name{
+    margin-left: 0.5rem;
+  }
+
+  .cat-img{
+    width: 3rem;
+  }
+
+  .padlock{
+    width: 2rem;
+    position: absolute;
+    bottom: -0.3rem;
+    left: -0.8rem;
+  }
+}
+

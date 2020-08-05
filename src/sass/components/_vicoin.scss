@@ -1,0 +1,20 @@
+.vi-container{
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+  float: right;
+  //margin-top: 0.6em;
+
+  @include  responsive(tab-port) {
+    margin-top: 1em;
+  }
+
+  .vicoin{
+    width: 2rem;
+    margin: -0.1rem 0 0 0.25rem;
+
+    @include  responsive(tab-port) {
+      width: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.login-container, .register-container{
+  .notice-link{
+    @extend .heading-3;
+  }
+
+  label{
+    margin-bottom: 0.1rem;
+  }
+
+  input{
+    border-radius: 0.9rem;
+  }
+
+  .form-group-country{
+    label{
+      display: block;
+    }
+  }
+}

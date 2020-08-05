@@ -1,0 +1,43 @@
+.th-app{
+  @extend .heading-3;
+
+  .table{
+    background-color: $color-cream;
+    color: $color-white-sec;
+  }
+
+  thead{
+    background-color: $color-brown;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+
+  .table-hover tbody tr:hover{
+    color: $color-white;
+    background-color: darken($color-brown, 6%);
+  }
+
+}
+
+.th-results{
+  .table{
+    text-align: center;
+    color: $color-blue-navy-dark !important;
+    @extend .bg-blue-navy-light, .heading-3;
+
+    .cont-answers{
+      .right{ color: darken(adjust-hue($color-green, 10%), 7%); }
+      .wrong{ color: darken(adjust-hue($color-red, 15%), 5%); }
+    }
+
+    .cont-question{
+      .ans-right{
+        color: $color-blue-navy !important;
+        display: block;
+        @extend .paragraph;
+      }
+    }
+  }
+}

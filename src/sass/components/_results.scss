@@ -1,0 +1,27 @@
+.results-container{
+  & .card-header{
+    padding: 1.5rem;
+    @extend .heading-1;
+  }
+
+  //.table{
+  //  text-align: center;
+  //  color: $color-blue-navy-dark !important;
+  //  @extend .bg-blue-navy-light, .heading-3;
+  //
+  //  span{
+  //    color: $color-blue-navy !important;
+  //    display: block;
+  //    @extend .paragraph;
+  //  }
+  //
+  //  .red{
+  //    color: darken(adjust-hue($color-red, 15%), 5%);
+  //  }
+  //
+  //  .green{
+  //    color: darken(adjust-hue($color-green, 10%), 7%);
+  //  }
+  //}
+
+}

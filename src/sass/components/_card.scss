@@ -1,0 +1,19 @@
+.card-header, .card-footer{
+  color: $color-white;
+  @extend .heading-1;
+}
+
+.card-header{
+  padding: 0.6rem 0;
+}
+
+.card-body{
+  //max-height: 24rem;
+  //overflow-y: auto;
+  padding-top: 0;
+}
+
+.card-footer{
+  position: sticky;
+  bottom: 3.4rem;
+}

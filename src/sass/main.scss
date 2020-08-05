@@ -1,0 +1,33 @@
+//import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/global";
+@import "base/animations";
+@import "base/base";
+@import "base/fonts";
+@import "base/typography";
+
+@import "components/layout";
+@import "components/toolbar";
+@import "components/homeSplash";
+@import "components/game";
+@import "components/auth";
+@import "components/categories";
+@import "components/results";
+@import "components/vicoin";
+@import "components/roulette";
+@import "components/modal";
+@import "components/table";
+@import "components/footer";
+
+//UI components
+@import "components/button";
+@import "components/card";
+@import "components/progressbar";
+@import "components/loader";
+
+//Vendor
+@import "vendor/ReactFlagsSelect/global";

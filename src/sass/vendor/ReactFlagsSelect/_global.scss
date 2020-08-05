@@ -1,0 +1,23 @@
+.select-country{
+  //width: 100%;
+
+  button{
+    padding-left: 0;
+
+    span > img{
+      vertical-align: unset;
+    }
+  }
+
+  ul{
+    //width: 50%;
+
+    .filterBox > input{
+      padding-left: 1rem;
+    }
+
+    li > span > img{
+      vertical-align: unset;
+    }
+  }
+}

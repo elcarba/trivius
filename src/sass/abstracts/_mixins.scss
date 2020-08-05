@@ -1,0 +1,33 @@
+//Media Query
+/*
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+*/
+
+@mixin responsive($breakpoint){
+
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 480px) { @content };
+  }
+
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5rem) { @content };    //600px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25rem) { @content };     //900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75rem) { @content };    //1200px
+  }
+  @if $breakpoint == large-desktop {
+    @media only screen and (min-width: 75rem) and (max-width: 112.5rem) { @content };
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5rem) { @content };    //1800
+  }
+}

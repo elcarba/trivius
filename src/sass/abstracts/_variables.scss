@@ -1,0 +1,57 @@
+// Colors
+$color-primary: #deae70;
+$color-primary-light: #eedac1;
+
+$color-secondary: #6eb3c9;
+//$color-secondary-light: #d7cdc2;
+$color-secondary-light: #d9d9d9;
+$color-secondary-dark: #5c6675;
+//$color-secondary-dark: #585d62;
+
+$color-white: #fff;
+//$color-white-sec: #fffcf7;
+$color-white-sec: #f4f4f4;
+$color-black: #636363;
+//$color-black: #524b4b;
+$color-red: #dd5151;
+$color-red-light: #df7a7a;
+$color-green: #87b453;
+$color-blue-navy: #79859a;
+$color-blue-navy-light: #d3d7de;
+$color-blue-navy-dark: #585d68;
+$color-blue-dark: #015871;
+$color-sand: #fcb040;
+$color-grey: #dedede;
+$color-cream: #dec19b;
+$color-brown: #a99781;
+
+//$color-blue-light: #7492ba;
+////$color-turquoise-light: #4cbdae;
+//$color-blue-dark: #5d7595;
+
+
+// Font
+$default-font-size: 1rem;
+
+$font-size-h1: 1.6rem;
+$font-size-h1-phone: 1rem;//fff
+$font-size-h1-tab: 1.1rem;
+$font-size-h1-bigdesk: 1.5rem;
+
+$font-size-h2: 1.4rem;
+$font-size-h2-phone: 0.85rem;
+$font-size-h2-tab: 0.95rem;
+$font-size-h2-bigdesk: 1.35rem;
+
+$font-size-h3: 1.18rem;
+$font-size-h3-phone: 0.75rem;
+$font-size-h3-tab: 0.95rem;
+$font-size-h3-bigdesk: 1.15rem;
+
+$duration-splash-home: 0s;
+//$duration-splash-home: 5s;
+
+
+:export{
+  durationSplashHome: $duration-splash-home
+}
